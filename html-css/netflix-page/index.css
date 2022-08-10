@@ -7,6 +7,7 @@
     font-family: "Netflix Sans";
 }
 
+
 header {
     margin-top: 8rem;
     text-align: center;
@@ -28,7 +29,6 @@ h2 {
 
 h3 {
     font-size: 1.2rem;
-    max-width: none;
     font-weight: 400;
     margin: 0;
     padding: 0 5%;
@@ -83,14 +83,34 @@ select {
     border-radius: 3px;
 }
 
-.top-first-two {
-    margin-bottom: 1rem;
-    margin-left: 10rem;
-    margin-right: 10rem;
-}
+.h1-first {}
 
 .top-h3 {
     width: 100%;
+    margin-bottom: 2rem;
+}
+
+.email-taker {
+    border-radius: 0%;
+    border: none;
+    padding-top: 1.1rem;
+    padding-bottom: 1.3rem;
+    padding-right: 15rem;
+    padding-left: 0.5rem;
+    margin-right: 0;
+    font-size: 1rem;
+}
+
+.get-started-button {
+    border: none;
+    padding: 0.9rem;
+    border-radius: 2%;
+    background-color: rgb(218, 0, 0);
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 400;
+    position: relative;
+    top: 5px;
 }
 
 .seperator {
@@ -126,6 +146,7 @@ select {
     left: 75px;
     border: 1px green solid;
 }
+
 
 #logo {
     width: 10rem;
