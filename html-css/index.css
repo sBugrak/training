@@ -1,0 +1,132 @@
+@import url("./fonts/fonts.css");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Netflix Sans";
+}
+
+header {
+    margin-top: 8rem;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3.125rem;
+    line-height: 1.1;
+    margin-bottom: .5rem;
+}
+
+h2 {
+    font-size: 1.625rem;
+    margin: 1rem auto;
+    max-width: 640px;
+    font-weight: 400;
+    letter-spacing: 0 !important;
+}
+
+h3 {
+    font-size: 1.2rem;
+    max-width: none;
+    font-weight: 400;
+    margin: 0;
+    padding: 0 5%;
+    letter-spacing: 0 !important;
+}
+
+button {
+    font-family: inherit;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+select {
+    font-family: inherit;
+    font-size: 1em;
+}
+
+.top-side {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65),
+            rgba(0, 0, 0, 0.8)), url("./images/TR-en-20220801-popsignuptwoweeks-perspective_alpha_website_small.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding-bottom: 5rem;
+}
+
+.logo-place {
+    display: inline;
+    padding: 0%;
+}
+
+.selections {
+    display: inline;
+    float: inline-end;
+    margin: 2rem;
+}
+
+.selections button {
+    border: none;
+    background-color: red;
+    color: white;
+    margin-right: 1rem;
+    padding: 0.3rem 1rem;
+    border-radius: 3px;
+}
+
+.selections select {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.01);
+    margin-right: 1rem;
+    padding: 0.2rem 0.75rem;
+    border-radius: 3px;
+}
+
+.top-first-two {
+    margin-bottom: 1rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+
+.top-h3 {
+    width: 100%;
+}
+
+.seperator {
+    background-color: rgb(53, 53, 53);
+    color: gray;
+    height: 0.5rem;
+}
+
+.tv-add {
+    width: 50%;
+    display: inline-block;
+}
+
+.sec-sc-tv {
+    display: inline-block;
+    width: 33%;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.sec-sc-frm {
+    width: 15rem;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.sec-sc-vid {
+    width: 10rem;
+    position: absolute;
+    top: 50px;
+    left: 75px;
+    border: 1px green solid;
+}
+
+#logo {
+    width: 10rem;
+}
