@@ -7,6 +7,9 @@
     font-family: "Netflix Sans";
 }
 
+html {
+    background-color: black;
+}
 
 header {
     margin-top: 8rem;
@@ -14,17 +17,9 @@ header {
 }
 
 h1 {
-    font-size: 3.125rem;
+    font-size: 4rem;
     line-height: 1.1;
     margin-bottom: .5rem;
-}
-
-h2 {
-    font-size: 1.625rem;
-    margin: 1rem auto;
-    max-width: 640px;
-    font-weight: 400;
-    letter-spacing: 0 !important;
 }
 
 h3 {
@@ -44,6 +39,14 @@ button {
 select {
     font-family: inherit;
     font-size: 1em;
+}
+
+.h2-first {
+    font-size: 1.625rem;
+    margin: 1rem auto;
+    max-width: 640px;
+    font-weight: 400;
+    letter-spacing: 0 !important;
 }
 
 .top-side {
@@ -117,34 +120,35 @@ select {
     height: 0.5rem;
 }
 
+.second-side {
+    color: white;
+    background-color: black;
+}
+
 .tv-add {
+    background-color: black;
+    float: left;
     width: 50%;
-    display: inline-block;
 }
 
 .sec-sc-tv {
-    display: inline-block;
-    width: 33%;
-    position: relative;
-    top: 0;
-    left: 0;
+    display: grid;
+    background-color: black;
+    float: right;
+    width: 50%;
 }
 
-.sec-sc-frm {
-    width: 15rem;
-    position: relative;
-    top: 0;
-    left: 0;
-}
-
-.sec-sc-vid {
-    width: 10rem;
+.screen-item-tv {
     position: absolute;
-    top: 50px;
-    left: 75px;
-    border: 1px green solid;
 }
 
+.screen-item-video {
+    width: 35%;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 85px;
+    z-index: 9;
+}
 
 #logo {
     width: 10rem;
