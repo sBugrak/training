@@ -47,6 +47,5 @@ int main()
     cout << s1.substr(3, 2) << endl;
 
     s1.erase(0, 1);
-
     cout << s1 << endl;
 }
