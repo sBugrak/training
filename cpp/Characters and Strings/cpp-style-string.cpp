@@ -44,14 +44,9 @@ int main()
     string s6{s1, 0, 3}; // App
     string s7(10, 'X');  // XXXXXXXXXX
 
-    cout << s0 << endl;          // empty
-    cout << s0.length() << endl; // 0
+    cout << s1.substr(3, 2) << endl;
 
-    cout << "s1   " << s1 << endl;
-    cout << "s2   " << s2 << endl;
-    cout << "s3   " << s3 << endl;
-    cout << "s4   " << s4 << endl;
-    cout << "s5   " << s5 << endl;
-    cout << "s6   " << s6 << endl;
-    cout << "s7   " << s7 << endl;
+    s1.erase(0, 1);
+
+    cout << s1 << endl;
 }
