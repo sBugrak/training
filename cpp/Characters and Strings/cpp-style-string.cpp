@@ -44,8 +44,14 @@ int main()
     string s6{s1, 0, 3}; // App
     string s7(10, 'X');  // XXXXXXXXXX
 
-    cout << s1.substr(3, 2) << endl;
+    // cout << s1.substr(3, 2) << endl;
 
     s1.erase(0, 1);
-    cout << s1 << endl;
+    // cout << s1 << endl;
+    
+    string first_name{"Bugra"};
+    string last_name{"Karabulut"};
+    string full_name{first_name + " " +last_name};
+
+    cout << full_name << endl;
 }

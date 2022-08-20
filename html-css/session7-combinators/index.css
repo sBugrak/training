@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Open Sans";
+}
+
+nav.nav-top {
+    background-image: linear-gradient(to left, rgba(255, 255, 255, 0.26), rgba(128, 0, 128, 0.733));
+}
+
+nav.nav-top img {
+    width: 50px;
+}
+
+.nav-top .sign-in {
+    float: right;
+    margin: 1.5rem 1rem;
+    color: rgb(128, 0, 128);
+    font-weight: 600;
+}
+
+.nav-top .sign-in a {
+    color: rgba(128, 0, 128, 0.733);
+    text-decoration: none;
+}
+
+.nav-top .sign-in a:hover {
+    color: black;
+}
+
+.clearfix {
+    clear: both;
+}
+
+nav.nav-main {
+    position: sticky;
+    top: 0rem;
+    font-family: "DynaPuff";
+    padding: 2.5rem;
+    text-align: center;
+    background-color: orange;
+}
+
+nav.nav-main a {
+    color: black;
+    text-decoration: none;
+    font-size: larger;
+    font-weight: 700;
+    margin: 1rem;
+}
+
+nav.nav-main a:hover {
+    color: white;
+}
+
+.fa-slack {
+    content: "\f198";
+}
+
+.fa-slack:hover {
+    color: white;
+}
+
+.slack-logo {
+    width: fit-content;
+    padding: 10px;
+    background-color: red;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 3rem;
+    right: 3rem;
+
+}
